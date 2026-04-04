@@ -21,6 +21,7 @@ import {
   TrendingUp,
   Utensils,
   Zap,
+  IndianRupee
 } from "lucide-react";
 import axios from "axios";
 import { Outlet } from "react-router-dom";
@@ -330,7 +331,7 @@ const Layout = ({onLogout, user}) => {
                 </p>
               </div>
               <div className={styles.statCards.iconContainer("teal")}>
-                <DollarSign className={styles.statCards.icon("teal")} />
+                <IndianRupee className={styles.statCards.icon("teal")} />
               </div>
             </div>
             <p className={styles.statCards.cardFooter}>
@@ -465,7 +466,7 @@ const Layout = ({onLogout, user}) => {
                           )}`}
                         >
                           {CATEGORY_ICONS[category] || (
-                            <DollarSign className={styles.transactions.icon} />
+                            <IndianRupee className={styles.transactions.icon} />
                           )}
                         </div>
 
@@ -538,7 +539,7 @@ const Layout = ({onLogout, user}) => {
                     <div className=" flex items-center gap-3">
                       <div className={styles.categories.categoryIconContainer}>
                         {CATEGORY_ICONS[category] || (
-                          <DollarSign
+                          <IndianRupee
                             className={styles.categories.categoryIcon}
                           />
                         )}
