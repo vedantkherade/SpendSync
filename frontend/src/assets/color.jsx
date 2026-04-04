@@ -5,7 +5,7 @@ import {
   TrendingUp, TrendingDown, DollarSign, 
   BarChart2, ArrowUp, FileText, 
   Briefcase, CreditCard, ShoppingBag, 
-  Film, Wifi, Heart
+  Film, Wifi, Heart, IndianRupee
 } from "lucide-react";
 
 
@@ -63,7 +63,7 @@ export const INCOME_CATEGORY_ICONS = {
   Freelance: <CreditCard className="w-5 h-5 text-green-500" />,
   Investment: <TrendingUp className="w-5 h-5 text-green-500" />,
   Gift: <Gift className="w-5 h-5 text-green-500" />,
-  Other: <DollarSign className="w-5 h-5 text-green-500" />,
+  Other: <IndianRupee className="w-5 h-5 text-green-500" />,
 };
 
 export const EXPENSE_CATEGORY_ICONS = {
