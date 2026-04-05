@@ -11,9 +11,9 @@ import Dashboard from "./pages/Dashboard";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import axios from "axios";
-// import Income from "./pages/Income";
-// import Expense from "./pages/Expense";
-// import Profile from "./pages/Profile";
+import Income from "./pages/Income";
+import Expense from "./pages/Expense";
+import Profile from "./pages/Profile";
 
 const API_URL = "http://localhost:4000";
 
@@ -204,7 +204,7 @@ const App = () => {
 
   return (
     <>
-      <ScrollToTop />
+       <ScrollToTop />
 
       <Routes>
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
@@ -234,7 +234,49 @@ const App = () => {
             deleteTransaction={deleteTransaction}
             refreshTransactions={refreshTransactions}
           />
+
+          <Route
+            path="/income"
+            element={
+              <Income
+                transactions={transactions}
+                addTransaction={addTransaction}
+                editTransaction={editTransaction}
+                deleteTransaction={deleteTransaction}
+                refreshTransactions={refreshTransactions}
+              />
+            }
+          />
+
+          <Route
+            path="/expense"
+            element={
+              <Expense
+                transactions={transactions}
+                addTransaction={addTransaction}
+                editTransaction={editTransaction}
+                deleteTransaction={deleteTransaction}
+                refreshTransactions={refreshTransactions}
+              />
+            }
+          />
+
+          <Route
+            path="/profile"
+            element={
+              <Profile
+                user={user}
+                onUpdateProfile={updateUserData}
+                onLogout={handleLogout}
+              />
+            }
+          />
         </Route>
+
+        <Route
+          path="*"
+          element={<Navigate to={user ? "/" : "/login"} replace />}
+        />
       </Routes>
     </>
   );

@@ -101,11 +101,11 @@ const IncomeChart = ({ chartData, timeFrame, timeFrameRange }) => (
             tickLine={false}
             tick={{ fill: "#6b7280", fontSize: 12 }}
             width={50}
-            tickFormatter={(value) => `$${value.toLocaleString()}`}
+            tickFormatter={(value) => `₹${value.toLocaleString()}`}
           />
           <Tooltip
             formatter={(value) => [
-              `$${Math.round(value).toLocaleString()}`,
+              `₹${Math.round(value).toLocaleString()}`,
               "Income",
             ]}
             contentStyle={styles.tooltipContent}
@@ -539,7 +539,7 @@ const Income = () => {
             </div>
           }
           label="Total Income"
-          value={`$${Number(totalIncome || 0).toLocaleString()}`}
+          value={`₹${Number(totalIncome || 0).toLocaleString()}`}
           additionalContent={
             <div className="mt-2 text-xs text-gray-500 flex items-center">
               <Calendar className="w-3 h-3 mr-1" /> {timeFrameRange.label}
@@ -556,7 +556,7 @@ const Income = () => {
             </div>
           }
           label="Average Income"
-          value={`$${Number(averageIncome || 0).toLocaleString()}`}
+          value={`₹${Number(averageIncome || 0).toLocaleString()}`}
           additionalContent={
             <div className="mt-2 text-xs text-gray-500 flex items-center">
               <Calendar className="w-3 h-3 mr-1" /> {transactionsCount}{" "}
