@@ -142,7 +142,7 @@ This project satisfies the **Finance Dashboard Assignment Requirements**:
 
 ## ✅ Optional Enhancements Implemented
 
-The following optional enhancements were also implemented to strengthen the submission:
+The following optional enhancements were also implemented:
 
 * 💾 Data Persistence (Database + Local Handling)
 * 🔌 Mock / API Integration (Full Backend API)
