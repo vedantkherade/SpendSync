@@ -233,12 +233,5 @@ If you like this project:
 
 ---
 
-# 👨‍💻 Developer
-
-**Vedant Kherade**
-MERN Stack Developer
-
----
-
 ⭐ **If you found this helpful, consider giving it a star!**
 
