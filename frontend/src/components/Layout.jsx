@@ -122,7 +122,7 @@ const Layout = ({onLogout, user}) => {
         err?.response || err.message || err,
       );
     } finally {
-      setLoading(false);
+      setTimeout(() => setLoading(false), 2000);
     }
   };
 
