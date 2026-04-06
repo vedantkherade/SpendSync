@@ -140,6 +140,17 @@ This project satisfies the **Finance Dashboard Assignment Requirements**:
 
 ---
 
+## ✅ Optional Enhancements Implemented
+
+The following optional enhancements were also implemented to strengthen the submission:
+
+* 💾 Data Persistence (Database + Local Handling)
+* 🔌 Mock / API Integration (Full Backend API)
+* ✨ Animations & Transitions (Framer Motion)
+* 📤 Export Functionality (xlsx)
+* 🔎 Advanced Filtering & Grouping
+* 📱 Fully Responsive Design
+
 # 📸 Screenshots
 
 ## 📊 Dashboard
@@ -151,6 +162,8 @@ This project satisfies the **Finance Dashboard Assignment Requirements**:
 ### Income & Expense Analytics
 
 <img width="1917" height="862" alt="Income Expense" src="https://github.com/user-attachments/assets/b1d0da5c-d81c-4f44-8094-34d2cd8c18a8" />
+
+---
 
 <img width="1918" height="867" alt="Analytics" src="https://github.com/user-attachments/assets/811770eb-99ee-4ed1-8090-44e62185fc1f" />
 
