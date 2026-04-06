@@ -1,7 +1,6 @@
-# 💰 Spendsync — Expense Tracker Dashboard
+# 💰 Spendsync — Full Stack Finance Dashboard 
 
-Spendsync is a **modern full‑stack expense tracking application** that helps users manage **income, expenses, and savings** with a clean dashboard and real‑time financial insights.
-The application provides an **intuitive UI, analytics, and transaction management** to help users understand and control their finances effectively.
+Spendsync is a **modern full‑stack MERN expense tracking application** that helps users manage **income, expenses, and savings** with a clean dashboard and real‑time financial insights.
 
 ---
 
@@ -13,19 +12,66 @@ The application provides an **intuitive UI, analytics, and transaction managemen
 
 # ✨ Features
 
-* 📊 Financial Dashboard Overview
-* 💰 Income Tracking
-* 💸 Expense Management
-* 📈 Saving Rate Analytics
-* 🧾 Recent Transactions
-* 📅 Date‑wise Financial Insights
-* 🔐 Authentication System
-* 📱 Fully Responsive UI
-* ⚡ Fast & Clean User Experience
+## 📊 Financial Dashboard
+
+* Total Balance Overview
+* Total Income & Expense Cards
+* Saving Rate Analytics
+* Financial Trend Visualization
+* Category Based Expense Breakdown
+* Monthly Financial Comparison
+
+## 💰 Income Tracking
+
+* Add Income
+* Edit Income
+* Delete Income
+* Category Based Income
+* Date Wise Income Tracking
+
+## 💸 Expense Management
+
+* Add Expense
+* Edit Expense
+* Delete Expense
+* Category Based Tracking
+* Date Wise Expense Tracking
+
+## 🧾 Transactions
+
+* Recent Transactions List
+* Income & Expense Types
+* Search Transactions
+* Filter Transactions
+* Sort Transactions
+
+## 📈 Analytics & Insights
+
+* Bar Charts
+* Pie Charts
+* Saving Rate Gauge
+* Trend Analytics
+* Highest Spending Category
+* Monthly Comparison
+
+## 🔐 Authentication System
+
+* User Registration
+* User Login
+* JWT Authentication
+* Protected Routes
+* User Based Data
+
+## 📱 UI & UX Features
+
+* Fully Responsive Design
+* Smooth Animations
+* Clean Dashboard UI
+* Fast & Interactive Experience
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Tech Stack (MERN)
 
 ## 🎨 Frontend
 
@@ -39,14 +85,58 @@ The application provides an **intuitive UI, analytics, and transaction managemen
 
 * Node.js
 * Express.js
+* REST API
+* JWT Authentication
 
 ## 🗄️ Database
 
 * MongoDB Atlas
+* Mongoose
 
 ## 🚀 Deployment
 
-* Render
+* Render (Frontend + Backend)
+
+---
+
+# 📊 Assignment Requirements Coverage
+
+This project satisfies the **Finance Dashboard Assignment Requirements**:
+
+## ✅ Dashboard Overview
+
+* Total Balance Card
+* Income & Expense Summary
+* Time Based Charts
+* Category Based Charts
+
+## ✅ Transactions Section
+
+* Transaction List
+* Date
+* Category
+* Amount
+* Type (Income / Expense)
+* Search & Filter
+
+## ✅ Insights Section
+
+* Highest Spending Category
+* Monthly Comparison
+* Financial Trends
+
+## ✅ State Management
+
+* React State
+* Context Management
+* API Data Handling
+
+## ✅ UI / UX Expectations
+
+* Clean UI
+* Responsive Layout
+* Smooth Interactions
+* Empty State Handling
 
 ---
 
@@ -78,38 +168,6 @@ The application provides an **intuitive UI, analytics, and transaction managemen
 
 ---
 
-# 📊 Key Features Breakdown
-
-## 📊 Dashboard Analytics
-
-* Total Income
-* Total Expenses
-* Saving Rate
-* Financial Trends
-
-## 💰 Income Management
-
-* Add Income
-* Edit Income
-* Delete Income
-* Category‑Based Income
-
-## 💸 Expense Management
-
-* Add Expense
-* Edit Expense
-* Delete Expense
-* Category Tracking
-
-## 📈 Charts & Visualizations
-
-* Bar Charts
-* Pie Charts
-* Saving Rate Gauge
-* Trend Analytics
-
----
-
 # 📱 Responsive Design
 
 Spendsync is fully optimized for:
@@ -120,13 +178,37 @@ Spendsync is fully optimized for:
 
 ---
 
-# ⭐ Support
+# ⚙️ Installation & Setup
 
-If you like this project:
+Clone the repository
 
-* ⭐ Star the repository
-* 🍴 Fork the project
-* 📢 Share with others
+```
+git clone https://github.com/yourusername/spendsync.git
+```
+
+Navigate to project directory
+
+```
+cd spendsync
+```
+
+Install frontend dependencies
+
+```
+npm install
+```
+
+Run frontend
+
+```
+npm run dev
+```
+
+Run backend
+
+```
+npm start
+```
 
 ---
 
@@ -141,4 +223,22 @@ Spendsync helps users:
 
 ---
 
+# ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 📢 Share with others
+
+---
+
+# 👨‍💻 Developer
+
+**Vedant Kherade**
+MERN Stack Developer
+
+---
+
 ⭐ **If you found this helpful, consider giving it a star!**
+
