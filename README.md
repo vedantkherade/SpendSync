@@ -64,22 +64,22 @@ Spendsync is a modern full-stack expense tracking application that helps users m
  <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/231e0bc4-59b8-47b5-a8a0-065e915f3cd6" />
  
 # 📊 Key Features Breakdown
-# 📊 Dashboard Analytics
+## 📊 Dashboard Analytics
 Total Income
 Total Expenses
 Saving Rate
 Financial Trends
-# 💰 Income Management
+## 💰 Income Management
 Add Income
 Edit Income
 Delete Income
 Category Based Income
-# 💸 Expense Management
+## 💸 Expense Management
 Add Expense
 Edit Expense
 Delete Expense
 Category Tracking
-# 📈 Charts & Visualizations
+## 📈 Charts & Visualizations
 Bar Charts
 Pie Charts
 Saving Rate Gauge
