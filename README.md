@@ -49,18 +49,25 @@ Spendsync is a modern full-stack expense tracking application that helps users m
 
 ## Dashboard
 - Financial Overview
-- <img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/8f93e39d-d157-4744-ab97-f0ae1f8228f6" />
+ <img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/8f93e39d-d157-4744-ab97-f0ae1f8228f6" />
 
 - Income & Expense Analytics
-- <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/b1d0da5c-d81c-4f44-8094-34d2cd8c18a8" />
-<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/811770eb-99ee-4ed1-8090-44e62185fc1f" />
+ <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/b1d0da5c-d81c-4f44-8094-34d2cd8c18a8" />
+ <img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/811770eb-99ee-4ed1-8090-44e62185fc1f" />
 
 
 ## Transactions
 - Recent Transactions
-- <img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/036d770a-5d6a-42f1-9901-c2719570ab64" />
+ <img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/036d770a-5d6a-42f1-9901-c2719570ab64" />
 
 - Category Based Tracking
-- <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/231e0bc4-59b8-47b5-a8a0-065e915f3cd6" />
+ <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/231e0bc4-59b8-47b5-a8a0-065e915f3cd6" />
  
 
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the project
+📢 Share with others
