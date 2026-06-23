@@ -99,58 +99,6 @@ Spendsync is a **modern full‑stack MERN expense tracking application** that he
 
 ---
 
-# 📊 Assignment Requirements Coverage
-
-This project satisfies the **Finance Dashboard Assignment Requirements**:
-
-## ✅ Dashboard Overview
-
-* Total Balance Card
-* Income & Expense Summary
-* Time Based Charts
-* Category Based Charts
-
-## ✅ Transactions Section
-
-* Transaction List
-* Date
-* Category
-* Amount
-* Type (Income / Expense)
-* Search & Filter
-
-## ✅ Insights Section
-
-* Highest Spending Category
-* Monthly Comparison
-* Financial Trends
-
-## ✅ State Management
-
-* React State
-* Context Management
-* API Data Handling
-
-## ✅ UI / UX Expectations
-
-* Clean UI
-* Responsive Layout
-* Smooth Interactions
-* Empty State Handling
-
----
-
-## ✅ Optional Enhancements Implemented
-
-The following optional enhancements were also implemented:
-
-* 💾 Data Persistence (Database + Local Handling)
-* 🔌 Mock / API Integration (Full Backend API)
-* ✨ Animations & Transitions (Framer Motion)
-* 📤 Export Functionality (xlsx)
-* 🔎 Advanced Filtering & Grouping
-* 📱 Fully Responsive Design
-
 # 📸 Screenshots
 
 ## 📊 Dashboard
